@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Dec 27 11:49:51 2023" VIVADOVERSION="2018.1">
+
+  <SYSTEMINFO ARCH="kintex7" DEVICE="7k70t" NAME="design_1" PACKAGE="fbv676" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS/>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES/>
+
+</EDKSYSTEM>
