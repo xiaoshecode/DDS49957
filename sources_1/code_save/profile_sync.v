@@ -40,27 +40,27 @@ module profile_sync(
     input [3:0] sync_clk
     );
    
-reg [3:0] ch0_profile_buf = 0;
-reg [3:0] ch0_profile_buf0 = 0;
-reg [3:0] ch0_profile_buf1 = 0;
-reg [3:0] ch0_profile_buf2 = 0;
-reg [3:0] ch0_profile_buf3 = 0;
+reg [2:0] ch0_profile_buf = 0;
+reg [2:0] ch0_profile_buf0 = 0;
+reg [2:0] ch0_profile_buf1 = 0;
+reg [2:0] ch0_profile_buf2 = 0;
+reg [2:0] ch0_profile_buf3 = 0;
 
-reg [3:0] ch1_profile_buf = 0;
-reg [3:0] ch1_profile_buf0 = 0;
-reg [3:0] ch1_profile_buf1 = 0;
-reg [3:0] ch1_profile_buf2 = 0;
-reg [3:0] ch1_profile_buf3 = 0;
+reg [2:0] ch1_profile_buf = 0;
+reg [2:0] ch1_profile_buf0 = 0;
+reg [2:0] ch1_profile_buf1 = 0;
+reg [2:0] ch1_profile_buf2 = 0;
+reg [2:0] ch1_profile_buf3 = 0;
 
-reg [3:0] ch2_profile_buf = 0;
-reg [3:0] ch2_profile_buf0 = 0;
-reg [3:0] ch2_profile_buf1 = 0;
-reg [3:0] ch2_profile_buf2 = 0;
+reg [2:0] ch2_profile_buf = 0;
+reg [2:0] ch2_profile_buf0 = 0;
+reg [2:0] ch2_profile_buf1 = 0;
+reg [2:0] ch2_profile_buf2 = 0;
 
-reg [3:0] ch3_profile_buf = 0;
-reg [3:0] ch3_profile_buf0 = 0;
-reg [3:0] ch3_profile_buf1 = 0;
-reg [3:0] ch3_profile_buf2 = 0;
+reg [2:0] ch3_profile_buf = 0;
+reg [2:0] ch3_profile_buf0 = 0;
+reg [2:0] ch3_profile_buf1 = 0;
+reg [2:0] ch3_profile_buf2 = 0;
 
 
 assign ch0_profile = ch0_profile_buf;
